@@ -2,6 +2,10 @@
 
 A review draft of Hike's Corestream landing page, built with React 19 and Mantine 7.17.7. It uses the supplied Hike logo and journey video. The page is not connected to authentication, scanning, checkout, or production.
 
+## Live preview
+
+[Open the landing page](https://tinnguyen-hm.github.io/corestream-welcome-preview/)
+
 ## Quick preview (no install)
 
 Download this repository using **Code → Download ZIP**, extract it, then run this command from the extracted directory:
@@ -45,4 +49,6 @@ Standalone TypeScript and build checks have passed; desktop/mobile visuals, vide
 
 ## Sharing
 
-This repository is private. Reviewers need repository access. A GitHub repository link is not a hosted website link; a separate preview deployment can be added later.
+This repository and its GitHub Pages preview are public. The page is a review draft; its buttons do not begin live onboarding.
+
+GitHub Pages serves the committed `docs/` directory from `main`. After editing, run `pnpm build:pages`, ensure `docs/.nojekyll` exists, and commit and push the source and generated docs together.

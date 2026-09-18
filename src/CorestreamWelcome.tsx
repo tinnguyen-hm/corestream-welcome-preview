@@ -64,7 +64,7 @@ export function CorestreamWelcome({ onContinue }: CorestreamWelcomeProps) {
       <Container size={1120} px={{ base: 22, sm: 32 }}>
         <Box component="header" pt={{ base: 18, sm: 24 }} pb={0}>
           <Image
-            src="/assets/hike-logo-blue.svg"
+            src="./assets/hike-logo-blue.svg"
             alt="Hike Medical"
             w={{ base: 180, sm: 230 }}
             ml={{ base: -22, sm: -28 }}
@@ -99,8 +99,8 @@ export function CorestreamWelcome({ onContinue }: CorestreamWelcomeProps) {
               <Paper radius={24} style={{ overflow: "hidden" }} bg="black">
                 <AspectRatio ratio={16 / 9}>
                   <video
-                    src="/assets/user-journey-new.mp4"
-                    poster="/assets/journey-poster.jpg"
+                    src="./assets/user-journey-new.mp4"
+                    poster="./assets/journey-poster.jpg"
                     autoPlay
                     muted
                     loop
